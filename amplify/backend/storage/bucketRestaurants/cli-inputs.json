@@ -1,0 +1,14 @@
+{
+  "resourceName": "bucketRestaurants",
+  "policyUUID": "1f00a161",
+  "bucketName": "bucketrestaurants",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/getRestaurants": {
+      "name": "/getRestaurants",
+      "lambdaFunction": "getRestaurants",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/getRestaurant/{restaurantId}": {
+      "name": "/getRestaurant/{restaurantId}",
+      "lambdaFunction": "getRestaurant",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

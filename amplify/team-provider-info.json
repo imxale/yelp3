@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-yelp3-dev-28ee0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::448049799695:role/amplify-yelp3-dev-28ee0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::448049799695:role/amplify-yelp3-dev-28ee0-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-yelp3-dev-28ee0-deployment",
+      "UnauthRoleName": "amplify-yelp3-dev-28ee0-unauthRole",
+      "StackName": "amplify-yelp3-dev-28ee0",
+      "StackId": "arn:aws:cloudformation:eu-west-1:448049799695:stack/amplify-yelp3-dev-28ee0/2666a770-e3cc-11ef-b0ad-068e7469d831",
+      "AmplifyAppId": "d2l8qaiybo7g97"
+    },
+    "categories": {
+      "function": {
+        "getRestaurants": {
+          "deploymentBucketName": "amplify-yelp3-dev-28ee0-deployment",
+          "s3Key": "amplify-builds/getRestaurants-464374344c366e666348-build.zip"
+        },
+        "getRestaurant": {
+          "deploymentBucketName": "amplify-yelp3-dev-28ee0-deployment",
+          "s3Key": "amplify-builds/getRestaurant-3849784c6f584d785878-build.zip"
+        }
+      },
+      "auth": {
+        "yelp3890ac9f0": {}
+      },
+      "storage": {
+        "restaurants": {},
+        "reviews": {},
+        "bucketRestaurants": {}
+      },
+      "api": {
+        "restaurant": {}
+      }
+    }
+  }
+}
